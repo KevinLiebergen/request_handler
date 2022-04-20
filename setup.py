@@ -20,7 +20,7 @@ project_urls = {
 # This call to setup() does all the work
 setup(
     name="request-handler",
-    version="0.1.1",
+    version="0.1.2",
     description="Request handler library",
     long_description=long_description,
     long_description_content_type="text/markdown",
