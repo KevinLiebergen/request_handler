@@ -15,10 +15,10 @@ How to compare the status code to know
 if continue or stop.
 
 ``` python3
-from handler import Handler
+from request_handler import RequestHandler
 
 if __name__ == '__main__':
-    handler = Handler('https://catfact.ninja/fact')
+    handler = RequestHandler('https://catfact.ninja/fact')
     handler_jsoned = handler.check_json_response()
     if handler_jsoned:
         print(handler_jsoned)
