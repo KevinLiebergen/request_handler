@@ -20,7 +20,7 @@ project_urls = {
 # This call to setup() does all the work
 setup(
     name="request-handler",
-    version="0.1.0",
+    version="0.1.1",
     description="Request handler library",
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -43,3 +43,4 @@ setup(
     install_requires=["requests"],
     project_urls=project_urls
 )
+
